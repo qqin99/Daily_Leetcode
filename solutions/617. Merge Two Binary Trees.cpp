@@ -18,7 +18,9 @@ public:
        if (root2==NULL)
            return root1;
        if (root2) root1->val+=root2->val;
+        //do not forget to limit root2 left is not null condition
        if (root2->left)  root1->left=mergeTrees(root1->left, root2->left);
+        //do not forget to limit root2 right is not null condition
        if (root2->right)  root1->right=mergeTrees(root1->right,root2->right);
            return root1;
     }
