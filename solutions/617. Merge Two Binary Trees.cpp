@@ -12,18 +12,15 @@
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
-       if(!root1 && !root2) return nullptr;
        if (root1== NULL)
            return root2;
        if (root2==NULL)
            return root1;
-       if (root2) root1->val+=root2->val;
-        //do not forget to limit root2 left is not null condition
-       if (root2->left)  root1->left=mergeTrees(root1->left, root2->left);
-        //do not forget to limit root2 right is not null condition
-       if (root2->right)  root1->right=mergeTrees(root1->right,root2->right);
+        root1->val+=root2->val;
+        root1->left=mergeTrees(root1->left, root2->left);
+        root1->right=mergeTrees(root1->right,root2->right);
            return root1;
-    }
+    }
 };
 ​
 ​
