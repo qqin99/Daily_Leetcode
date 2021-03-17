@@ -14,6 +14,7 @@
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[C++](./solutions/617.%20Merge%20Two%20Binary%20Trees.cpp)|24 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[C++](./solutions/771.%20Jewels%20and%20Stones.cpp)|68 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[C++](./solutions/938.%20Range%20Sum%20of%20BST.cpp)|208 ms|
+|1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[C++](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.cpp)|0 ms|
 |1470|[ Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[C++](./solutions/1470.%20Shuffle%20the%20Array.cpp)|4 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./solutions/1480.%20Running%20Sum%20of%201d%20Array.cpp)|4 ms|
 |1644|[ Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)|[C++](./solutions/1644.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II.cpp)|124 ms|
